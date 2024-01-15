@@ -171,6 +171,16 @@ body {
   display: none;
 }
 
+.custom-select:focus{
+  border: none;
+   outline: none;
+   border-radius: 5px;
+  Box-shadow: 0 0px 6px rgba(23, 87, 117, 0.719);
+
+}
+
+
+
 @media (max-width:600px) {
 
   .nav>.nav-btn {
@@ -240,6 +250,7 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+
 
   .nav-links input {
     margin-top: 5px;
